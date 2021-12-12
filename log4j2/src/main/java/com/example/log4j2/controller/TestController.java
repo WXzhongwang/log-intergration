@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @author zhongshengwang
  * @description TODO
  * @date 2021/12/12 8:55 下午
- * @email zhongshengwang@shuwen.com
+ * @email zhongshengwang
  */
 @RestController
 public class TestController {
