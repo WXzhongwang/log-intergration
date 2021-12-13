@@ -1,19 +1,97 @@
-2021-12-12 21:54:39.217 -- [main] {INFO } com.example.log4j2.Log4j2Application - Starting Log4j2Application on zhongshengwangdeMacBook-Pro.local with PID 46569 (/Users/zhongshengwang/workspace/mine/log-integration/log4j2/target/classes started by zhongshengwang in /Users/zhongshengwang/workspace/mine/log-integration)
-2021-12-12 21:54:39.218 -- [main] {INFO } com.example.log4j2.Log4j2Application - No active profile set, falling back to default profiles: default
-2021-12-12 21:54:40.464 -- [main] {INFO } org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8084 (http)
-2021-12-12 21:54:40.510 -- [main] {INFO } org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8084"]
-2021-12-12 21:54:40.535 -- [main] {INFO } org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2021-12-12 21:54:40.536 -- [main] {INFO } org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.22]
-2021-12-12 21:54:40.694 -- [main] {INFO } org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2021-12-12 21:54:40.694 -- [main] {INFO } org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1423 ms
-2021-12-12 21:54:40.960 -- [main] {INFO } org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
-2021-12-12 21:54:41.170 -- [main] {INFO } org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8084"]
-2021-12-12 21:54:41.222 -- [main] {INFO } org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8084 (http) with context path ''
-2021-12-12 21:54:41.227 -- [main] {INFO } com.example.log4j2.Log4j2Application - Started Log4j2Application in 22.808 seconds (JVM running for 34.822)
-2021-12-12 21:56:01.539 -- [http-nio-8084-exec-1] {INFO } org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-12-12 21:56:01.539 -- [http-nio-8084-exec-1] {INFO } org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-2021-12-12 21:56:01.551 -- [http-nio-8084-exec-1] {INFO } org.springframework.web.servlet.DispatcherServlet - Completed initialization in 12 ms
-2021-12-12 21:56:01.769 -- [http-nio-8084-exec-1] {INFO } com.example.log4j2.controller.TestController - 【TestController.class】info level log input
-2021-12-12 21:56:01.769 -- [http-nio-8084-exec-1] {WARN } com.example.log4j2.controller.TestController - 【TestController.class】warn level log input
-2021-12-12 21:56:01.770 -- [http-nio-8084-exec-1] {ERROR} com.example.log4j2.controller.TestController - 【TestController.class】error level log input
-2021-12-12 21:57:27.239 -- [Thread-54] {INFO } org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-12-13 20:56:19.349 -- [main] {INFO } com.example.log4j2.Log4j2Application - Starting Log4j2Application on zhongshengwangdeMacBook-Pro.local with PID 63480 (/Users/zhongshengwang/workspace/mine/log-integration/log4j2/target/classes started by zhongshengwang in /Users/zhongshengwang/workspace/mine/log-integration)
+2021-12-13 20:56:19.350 -- [main] {INFO } com.example.log4j2.Log4j2Application - No active profile set, falling back to default profiles: default
+2021-12-13 20:56:20.074 -- [main] {INFO } org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8084 (http)
+2021-12-13 20:56:20.097 -- [main] {INFO } org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8084"]
+2021-12-13 20:56:20.106 -- [main] {INFO } org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-12-13 20:56:20.106 -- [main] {INFO } org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2021-12-13 20:56:20.200 -- [main] {INFO } org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-12-13 20:56:20.200 -- [main] {INFO } org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 822 ms
+2021-12-13 20:56:20.473 -- [main] {INFO } org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8084"]
+2021-12-13 20:56:20.501 -- [main] {INFO } org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8084 (http) with context path ''
+2021-12-13 20:56:20.505 -- [main] {INFO } com.example.log4j2.Log4j2Application - Started Log4j2Application in 21.475 seconds (JVM running for 32.439)
+2021-12-13 20:57:20.789 -- [http-nio-8084-exec-1] {INFO } org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-13 20:57:20.789 -- [http-nio-8084-exec-1] {INFO } org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-12-13 20:57:20.796 -- [http-nio-8084-exec-1] {INFO } org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2021-12-13 20:57:20.819 -- [http-nio-8084-exec-1] {INFO } com.example.log4j2.controller.TestController - 【TestController.class】info level log input
+2021-12-13 20:57:20.819 -- [http-nio-8084-exec-1] {WARN } com.example.log4j2.controller.TestController - 【TestController.class】warn level log input
+2021-12-13 20:57:20.819 -- [http-nio-8084-exec-1] {ERROR} com.example.log4j2.controller.TestController - 【TestController.class】error level log input
+2021-12-13 20:58:54.460 -- [http-nio-8084-exec-5] {WARN } org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'name' is not present]
+2021-12-13 20:59:07.485 -- [pool-2-thread-1] {INFO } com.example.log4j2.service.impl.TestServiceImpl - thread running
+2021-12-13 20:59:07.861 -- [http-nio-8084-exec-6] {INFO } com.example.log4j2.controller.TestController - 【TestController.class】info level log input
+2021-12-13 20:59:07.861 -- [http-nio-8084-exec-6] {WARN } com.example.log4j2.controller.TestController - 【TestController.class】warn level log input
+2021-12-13 20:59:07.861 -- [http-nio-8084-exec-6] {ERROR} com.example.log4j2.controller.TestController - 【TestController.class】error level log input
+2021-12-13 20:59:08.071 -- [http-nio-8084-exec-7] {INFO } com.example.log4j2.controller.TestController - 【TestController.class】info level log input
+2021-12-13 20:59:08.071 -- [http-nio-8084-exec-7] {WARN } com.example.log4j2.controller.TestController - 【TestController.class】warn level log input
+2021-12-13 20:59:08.071 -- [http-nio-8084-exec-7] {ERROR} com.example.log4j2.controller.TestController - 【TestController.class】error level log input
+2021-12-13 20:59:08.138 -- [http-nio-8084-exec-8] {INFO } com.example.log4j2.controller.TestController - 【TestController.class】info level log input
+2021-12-13 20:59:08.138 -- [http-nio-8084-exec-8] {WARN } com.example.log4j2.controller.TestController - 【TestController.class】warn level log input
+2021-12-13 20:59:08.138 -- [http-nio-8084-exec-8] {ERROR} com.example.log4j2.controller.TestController - 【TestController.class】error level log input
+2021-12-13 21:04:51.694 -- [main] {INFO } com.example.log4j2.Log4j2Application - Starting Log4j2Application on zhongshengwangdeMacBook-Pro.local with PID 63749 (/Users/zhongshengwang/workspace/mine/log-integration/log4j2/target/classes started by zhongshengwang in /Users/zhongshengwang/workspace/mine/log-integration)
+2021-12-13 21:04:51.694 -- [main] {INFO } com.example.log4j2.Log4j2Application - No active profile set, falling back to default profiles: default
+2021-12-13 21:04:52.451 -- [main] {INFO } org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8084 (http)
+2021-12-13 21:04:52.470 -- [main] {INFO } org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8084"]
+2021-12-13 21:04:52.478 -- [main] {INFO } org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-12-13 21:04:52.478 -- [main] {INFO } org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2021-12-13 21:04:52.567 -- [main] {INFO } org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-12-13 21:04:52.567 -- [main] {INFO } org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 843 ms
+2021-12-13 21:04:52.882 -- [main] {INFO } org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8084"]
+2021-12-13 21:04:52.915 -- [main] {INFO } org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8084 (http) with context path ''
+2021-12-13 21:04:52.919 -- [main] {INFO } com.example.log4j2.Log4j2Application - Started Log4j2Application in 21.524 seconds (JVM running for 32.414)
+2021-12-13 21:05:12.461 -- [http-nio-8084-exec-1] {INFO } org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-13 21:05:12.461 -- [http-nio-8084-exec-1] {INFO } org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-12-13 21:05:12.466 -- [http-nio-8084-exec-1] {INFO } org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2021-12-13 21:05:12.491 -- [pool-2-thread-1] {INFO } com.example.log4j2.service.impl.TestServiceImpl - thread running
+2021-12-13 21:05:12.817 -- [http-nio-8084-exec-2] {INFO } com.example.log4j2.controller.TestController - 【TestController.class】info level log input
+2021-12-13 21:05:12.817 -- [http-nio-8084-exec-2] {WARN } com.example.log4j2.controller.TestController - 【TestController.class】warn level log input
+2021-12-13 21:05:12.817 -- [http-nio-8084-exec-2] {ERROR} com.example.log4j2.controller.TestController - 【TestController.class】error level log input
+2021-12-13 21:05:13.006 -- [http-nio-8084-exec-3] {INFO } com.example.log4j2.controller.TestController - 【TestController.class】info level log input
+2021-12-13 21:05:13.006 -- [http-nio-8084-exec-3] {WARN } com.example.log4j2.controller.TestController - 【TestController.class】warn level log input
+2021-12-13 21:05:13.006 -- [http-nio-8084-exec-3] {ERROR} com.example.log4j2.controller.TestController - 【TestController.class】error level log input
+2021-12-13 21:05:13.046 -- [http-nio-8084-exec-4] {INFO } com.example.log4j2.controller.TestController - 【TestController.class】info level log input
+2021-12-13 21:05:13.046 -- [http-nio-8084-exec-4] {WARN } com.example.log4j2.controller.TestController - 【TestController.class】warn level log input
+2021-12-13 21:05:13.046 -- [http-nio-8084-exec-4] {ERROR} com.example.log4j2.controller.TestController - 【TestController.class】error level log input
+2021-12-13 21:05:13.183 -- [http-nio-8084-exec-5] {WARN } org.springframework.web.servlet.PageNotFound - No mapping for GET /favicon.ico
+2021-12-13 21:06:28.645 -- [pool-3-thread-1] {INFO } com.example.log4j2.service.impl.TestServiceImpl - thread running
+2021-12-13 21:06:28.649 -- [http-nio-8084-exec-3] {INFO } com.example.log4j2.controller.TestController - 【TestController.class】info level log input
+2021-12-13 21:06:28.649 -- [http-nio-8084-exec-3] {WARN } com.example.log4j2.controller.TestController - 【TestController.class】warn level log input
+2021-12-13 21:06:28.649 -- [http-nio-8084-exec-3] {ERROR} com.example.log4j2.controller.TestController - 【TestController.class】error level log input
+2021-12-13 21:06:28.653 -- [http-nio-8084-exec-4] {INFO } com.example.log4j2.controller.TestController - 【TestController.class】info level log input
+2021-12-13 21:06:28.653 -- [http-nio-8084-exec-4] {WARN } com.example.log4j2.controller.TestController - 【TestController.class】warn level log input
+2021-12-13 21:06:28.653 -- [http-nio-8084-exec-4] {ERROR} com.example.log4j2.controller.TestController - 【TestController.class】error level log input
+2021-12-13 21:06:28.656 -- [http-nio-8084-exec-1] {INFO } com.example.log4j2.controller.TestController - 【TestController.class】info level log input
+2021-12-13 21:06:28.656 -- [http-nio-8084-exec-1] {WARN } com.example.log4j2.controller.TestController - 【TestController.class】warn level log input
+2021-12-13 21:06:28.656 -- [http-nio-8084-exec-1] {ERROR} com.example.log4j2.controller.TestController - 【TestController.class】error level log input
+2021-12-13 21:06:30.581 -- [pool-4-thread-1] {INFO } com.example.log4j2.service.impl.TestServiceImpl - thread running
+2021-12-13 21:06:30.583 -- [http-nio-8084-exec-6] {INFO } com.example.log4j2.controller.TestController - 【TestController.class】info level log input
+2021-12-13 21:06:30.583 -- [http-nio-8084-exec-6] {WARN } com.example.log4j2.controller.TestController - 【TestController.class】warn level log input
+2021-12-13 21:06:30.583 -- [http-nio-8084-exec-6] {ERROR} com.example.log4j2.controller.TestController - 【TestController.class】error level log input
+2021-12-13 21:06:30.585 -- [http-nio-8084-exec-7] {INFO } com.example.log4j2.controller.TestController - 【TestController.class】info level log input
+2021-12-13 21:06:30.585 -- [http-nio-8084-exec-7] {WARN } com.example.log4j2.controller.TestController - 【TestController.class】warn level log input
+2021-12-13 21:06:30.585 -- [http-nio-8084-exec-7] {ERROR} com.example.log4j2.controller.TestController - 【TestController.class】error level log input
+2021-12-13 21:06:30.589 -- [http-nio-8084-exec-9] {INFO } com.example.log4j2.controller.TestController - 【TestController.class】info level log input
+2021-12-13 21:06:30.589 -- [http-nio-8084-exec-9] {WARN } com.example.log4j2.controller.TestController - 【TestController.class】warn level log input
+2021-12-13 21:06:30.589 -- [http-nio-8084-exec-9] {ERROR} com.example.log4j2.controller.TestController - 【TestController.class】error level log input
+2021-12-13 21:08:30.005 -- [main] {INFO } com.example.log4j2.Log4j2Application - Starting Log4j2Application on zhongshengwangdeMacBook-Pro.local with PID 63853 (/Users/zhongshengwang/workspace/mine/log-integration/log4j2/target/classes started by zhongshengwang in /Users/zhongshengwang/workspace/mine/log-integration)
+2021-12-13 21:08:30.005 -- [main] {INFO } com.example.log4j2.Log4j2Application - No active profile set, falling back to default profiles: default
+2021-12-13 21:08:30.836 -- [main] {INFO } org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8084 (http)
+2021-12-13 21:08:30.861 -- [main] {INFO } org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8084"]
+2021-12-13 21:08:30.875 -- [main] {INFO } org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-12-13 21:08:30.876 -- [main] {INFO } org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2021-12-13 21:08:30.980 -- [main] {INFO } org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-12-13 21:08:30.981 -- [main] {INFO } org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 934 ms
+2021-12-13 21:08:31.342 -- [main] {INFO } org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8084"]
+2021-12-13 21:08:31.381 -- [main] {INFO } org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8084 (http) with context path ''
+2021-12-13 21:08:31.384 -- [main] {INFO } com.example.log4j2.Log4j2Application - Started Log4j2Application in 21.651 seconds (JVM running for 32.568)
+2021-12-13 21:15:07.438 -- [http-nio-8084-exec-1] {INFO } org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-13 21:15:07.439 -- [http-nio-8084-exec-1] {INFO } org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-12-13 21:15:07.475 -- [http-nio-8084-exec-1] {INFO } org.springframework.web.servlet.DispatcherServlet - Completed initialization in 36 ms
+2021-12-13 21:15:07.543 -- [pool-2-thread-1] {INFO } com.example.log4j2.service.impl.TestServiceImpl - thread running
+2021-12-13 21:15:08.274 -- [http-nio-8084-exec-2] {INFO } com.example.log4j2.controller.TestController - 【TestController.class】info level log input
+2021-12-13 21:15:08.274 -- [http-nio-8084-exec-2] {WARN } com.example.log4j2.controller.TestController - 【TestController.class】warn level log input
+2021-12-13 21:15:08.274 -- [http-nio-8084-exec-2] {ERROR} com.example.log4j2.controller.TestController - 【TestController.class】error level log input
+2021-12-13 21:15:08.638 -- [http-nio-8084-exec-3] {INFO } com.example.log4j2.controller.TestController - 【TestController.class】info level log input
+2021-12-13 21:15:08.638 -- [http-nio-8084-exec-3] {WARN } com.example.log4j2.controller.TestController - 【TestController.class】warn level log input
+2021-12-13 21:15:08.638 -- [http-nio-8084-exec-3] {ERROR} com.example.log4j2.controller.TestController - 【TestController.class】error level log input
+2021-12-13 21:15:08.726 -- [http-nio-8084-exec-4] {INFO } com.example.log4j2.controller.TestController - 【TestController.class】info level log input
+2021-12-13 21:15:08.726 -- [http-nio-8084-exec-4] {WARN } com.example.log4j2.controller.TestController - 【TestController.class】warn level log input
+2021-12-13 21:15:08.726 -- [http-nio-8084-exec-4] {ERROR} com.example.log4j2.controller.TestController - 【TestController.class】error level log input

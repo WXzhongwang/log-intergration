@@ -1,9 +1,13 @@
 package com.example.log4j2.controller;
 
+import com.example.log4j2.service.ITestService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
+
+import javax.annotation.Resource;
 
 /**
  * @author zhongshengwang
@@ -16,6 +20,9 @@ public class TestController {
 
     private final static Logger logger = LoggerFactory.getLogger(TestController.class);
 
+    @Resource
+    private ITestService testService;
+
     /**
      * Log4jContextSelector=org.apache.logging.log4j.core.async.AsyncLoggerContextSelector
      * <p>
@@ -25,17 +32,18 @@ public class TestController {
      * @return
      */
     @GetMapping("/api/test")
-    public Object hello() {
+    public Object test() {
         logger.trace("【TestController.class】trace level log input");
-        System.out.println("【TestController.class】trace level log input");
         logger.debug("【TestController.class】debug level log input");
-        System.out.println("【TestController.class】debug level log input");
         logger.info("【TestController.class】info level log input");
-        System.out.println("【TestController.class】info level log input");
         logger.warn("【TestController.class】warn level log input");
-        System.out.println("【TestController.class】warn level log input");
         logger.error("【TestController.class】error level log input");
-        System.out.println("【TestController.class】error level log input");
+        return "hello world";
+    }
+
+    @GetMapping("/hello")
+    public Object hello(@RequestParam("name") String name) {
+        testService.sayHello(name);
         return "hello world";
     }
 }

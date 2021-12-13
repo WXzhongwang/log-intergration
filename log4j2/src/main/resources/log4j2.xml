@@ -9,7 +9,7 @@
         <property name="DEFAULT_LOG_ROOT_PATH" value="./"/>
         <!-- 日志格式 -->
         <property name="CONSOLE_LOG_PATTERN"
-                  value="%d{yyyy-MM-dd HH:mm:ss.SSS} -- %style{[%t]}{bright,magenta} %highlight{%-5level}{ERROR=Bright RED, WARN=Bright Yellow, INFO=Bright Green, DEBUG=Bright Cyan, TRACE=Bright White} %logger{36} - %msg%n"/>
+                  value="[TRACEID:%X{traceId}] %d{yyyy-MM-dd HH:mm:ss.SSS} -- %style{[%t]}{bright,magenta} %highlight{%-5level}{ERROR=Bright RED, WARN=Bright Yellow, INFO=Bright Green, DEBUG=Bright Cyan, TRACE=Bright White} %logger{36} - %msg%n"/>
         <property name="LOG_PATTERN"
                   value="%d{yyyy-MM-dd HH:mm:ss.SSS} -- [%t] {%-5level} %logger{36} - %msg%n"/>
         <!-- 日志文件最大文件大小全局配置,单位可以为KB、MB或GB，一天之内最大文件产生数量全局配置 -->
