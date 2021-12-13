@@ -459,3 +459,34 @@ public class ThreadMdcUtil {
 }
 
 ```
+
+### step5: HTTP RESPONSE
+
+还有一个比较重要的点是，我们需要在接口返回时将 TraceId 返回给前端，我们当然不可能在每个接口那里植入返回 TraceId 的代码 ，而是利用 ResponseBodyAdvice，可以在接口结果返回前，对返回结果进行进一步处理。
+
+> 这个代码我就没写到这里了, 偷个懒。==^==
+
+```
+/**
+ * Response Advice
+ * @author zhongshengwang
+ **/
+@RestControllerAdvice(basePackages = "com.example.log4j2")
+public class WebResponseModifyAdvice implements ResponseBodyAdvice {
+
+    @Override
+    public boolean supports(final MethodParameter methodParameter, final Class converterType) {
+        // 返回 class 为 ApiResult（带 TraceId 属性） & converterType 为 Json 转换
+        return methodParameter.getMethod().getReturnType().isAssignableFrom(ApiResult.class)
+                && converterType.isAssignableFrom(MappingJackson2HttpMessageConverter.class);
+    }
+
+    @Override
+    public Object beforeBodyWrite(final Object body, final MethodParameter methodParameter, final MediaType mediaType, final Class aClass,
+                                  final ServerHttpRequest serverHttpRequest, final ServerHttpResponse serverHttpResponse) {
+        // 设置 TraceId
+        ((ApiResult<?>) body).setTraceId(MDC.get(Constants.TRACE_ID));
+        return body;
+    }
+}
+```

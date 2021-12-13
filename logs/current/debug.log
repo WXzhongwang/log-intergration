@@ -95,3 +95,53 @@
 2021-12-13 21:15:08.726 -- [http-nio-8084-exec-4] {INFO } com.example.log4j2.controller.TestController - 【TestController.class】info level log input
 2021-12-13 21:15:08.726 -- [http-nio-8084-exec-4] {WARN } com.example.log4j2.controller.TestController - 【TestController.class】warn level log input
 2021-12-13 21:15:08.726 -- [http-nio-8084-exec-4] {ERROR} com.example.log4j2.controller.TestController - 【TestController.class】error level log input
+2021-12-13 21:19:00.586 -- [pool-3-thread-1] {INFO } com.example.log4j2.service.impl.TestServiceImpl - thread running
+2021-12-13 21:19:00.589 -- [http-nio-8084-exec-2] {INFO } com.example.log4j2.controller.TestController - 【TestController.class】info level log input
+2021-12-13 21:19:00.589 -- [http-nio-8084-exec-2] {WARN } com.example.log4j2.controller.TestController - 【TestController.class】warn level log input
+2021-12-13 21:19:00.589 -- [http-nio-8084-exec-2] {ERROR} com.example.log4j2.controller.TestController - 【TestController.class】error level log input
+2021-12-13 21:19:00.593 -- [http-nio-8084-exec-3] {INFO } com.example.log4j2.controller.TestController - 【TestController.class】info level log input
+2021-12-13 21:19:00.593 -- [http-nio-8084-exec-3] {WARN } com.example.log4j2.controller.TestController - 【TestController.class】warn level log input
+2021-12-13 21:19:00.593 -- [http-nio-8084-exec-3] {ERROR} com.example.log4j2.controller.TestController - 【TestController.class】error level log input
+2021-12-13 21:19:00.597 -- [http-nio-8084-exec-4] {INFO } com.example.log4j2.controller.TestController - 【TestController.class】info level log input
+2021-12-13 21:19:00.597 -- [http-nio-8084-exec-4] {WARN } com.example.log4j2.controller.TestController - 【TestController.class】warn level log input
+2021-12-13 21:19:00.597 -- [http-nio-8084-exec-4] {ERROR} com.example.log4j2.controller.TestController - 【TestController.class】error level log input
+2021-12-13 21:19:01.591 -- [pool-4-thread-1] {INFO } com.example.log4j2.service.impl.TestServiceImpl - thread running
+2021-12-13 21:19:01.594 -- [http-nio-8084-exec-5] {INFO } com.example.log4j2.controller.TestController - 【TestController.class】info level log input
+2021-12-13 21:19:01.594 -- [http-nio-8084-exec-5] {WARN } com.example.log4j2.controller.TestController - 【TestController.class】warn level log input
+2021-12-13 21:19:01.594 -- [http-nio-8084-exec-5] {ERROR} com.example.log4j2.controller.TestController - 【TestController.class】error level log input
+2021-12-13 21:19:01.596 -- [http-nio-8084-exec-6] {INFO } com.example.log4j2.controller.TestController - 【TestController.class】info level log input
+2021-12-13 21:19:01.596 -- [http-nio-8084-exec-6] {WARN } com.example.log4j2.controller.TestController - 【TestController.class】warn level log input
+2021-12-13 21:19:01.596 -- [http-nio-8084-exec-6] {ERROR} com.example.log4j2.controller.TestController - 【TestController.class】error level log input
+2021-12-13 21:19:01.599 -- [http-nio-8084-exec-9] {INFO } com.example.log4j2.controller.TestController - 【TestController.class】info level log input
+2021-12-13 21:19:01.599 -- [http-nio-8084-exec-9] {WARN } com.example.log4j2.controller.TestController - 【TestController.class】warn level log input
+2021-12-13 21:19:01.599 -- [http-nio-8084-exec-9] {ERROR} com.example.log4j2.controller.TestController - 【TestController.class】error level log input
+2021-12-13 21:19:01.728 -- [pool-5-thread-1] {INFO } com.example.log4j2.service.impl.TestServiceImpl - thread running
+2021-12-13 21:19:01.730 -- [http-nio-8084-exec-8] {INFO } com.example.log4j2.controller.TestController - 【TestController.class】info level log input
+2021-12-13 21:19:01.730 -- [http-nio-8084-exec-8] {WARN } com.example.log4j2.controller.TestController - 【TestController.class】warn level log input
+2021-12-13 21:19:01.730 -- [http-nio-8084-exec-8] {ERROR} com.example.log4j2.controller.TestController - 【TestController.class】error level log input
+2021-12-13 21:19:01.732 -- [http-nio-8084-exec-2] {INFO } com.example.log4j2.controller.TestController - 【TestController.class】info level log input
+2021-12-13 21:19:01.732 -- [http-nio-8084-exec-2] {WARN } com.example.log4j2.controller.TestController - 【TestController.class】warn level log input
+2021-12-13 21:19:01.732 -- [http-nio-8084-exec-2] {ERROR} com.example.log4j2.controller.TestController - 【TestController.class】error level log input
+2021-12-13 21:19:01.735 -- [http-nio-8084-exec-3] {INFO } com.example.log4j2.controller.TestController - 【TestController.class】info level log input
+2021-12-13 21:19:01.735 -- [http-nio-8084-exec-3] {WARN } com.example.log4j2.controller.TestController - 【TestController.class】warn level log input
+2021-12-13 21:19:01.735 -- [http-nio-8084-exec-3] {ERROR} com.example.log4j2.controller.TestController - 【TestController.class】error level log input
+2021-12-13 21:19:01.866 -- [pool-6-thread-1] {INFO } com.example.log4j2.service.impl.TestServiceImpl - thread running
+2021-12-13 21:19:01.867 -- [http-nio-8084-exec-10] {INFO } com.example.log4j2.controller.TestController - 【TestController.class】info level log input
+2021-12-13 21:19:01.867 -- [http-nio-8084-exec-10] {WARN } com.example.log4j2.controller.TestController - 【TestController.class】warn level log input
+2021-12-13 21:19:01.867 -- [http-nio-8084-exec-10] {ERROR} com.example.log4j2.controller.TestController - 【TestController.class】error level log input
+2021-12-13 21:19:01.869 -- [http-nio-8084-exec-5] {INFO } com.example.log4j2.controller.TestController - 【TestController.class】info level log input
+2021-12-13 21:19:01.869 -- [http-nio-8084-exec-5] {WARN } com.example.log4j2.controller.TestController - 【TestController.class】warn level log input
+2021-12-13 21:19:01.869 -- [http-nio-8084-exec-5] {ERROR} com.example.log4j2.controller.TestController - 【TestController.class】error level log input
+2021-12-13 21:19:01.872 -- [http-nio-8084-exec-6] {INFO } com.example.log4j2.controller.TestController - 【TestController.class】info level log input
+2021-12-13 21:19:01.872 -- [http-nio-8084-exec-6] {WARN } com.example.log4j2.controller.TestController - 【TestController.class】warn level log input
+2021-12-13 21:19:01.872 -- [http-nio-8084-exec-6] {ERROR} com.example.log4j2.controller.TestController - 【TestController.class】error level log input
+2021-12-13 21:19:08.588 -- [pool-7-thread-1] {INFO } com.example.log4j2.service.impl.TestServiceImpl - thread running
+2021-12-13 21:19:08.590 -- [http-nio-8084-exec-1] {INFO } com.example.log4j2.controller.TestController - 【TestController.class】info level log input
+2021-12-13 21:19:08.590 -- [http-nio-8084-exec-1] {WARN } com.example.log4j2.controller.TestController - 【TestController.class】warn level log input
+2021-12-13 21:19:08.590 -- [http-nio-8084-exec-1] {ERROR} com.example.log4j2.controller.TestController - 【TestController.class】error level log input
+2021-12-13 21:19:08.595 -- [http-nio-8084-exec-8] {INFO } com.example.log4j2.controller.TestController - 【TestController.class】info level log input
+2021-12-13 21:19:08.595 -- [http-nio-8084-exec-8] {WARN } com.example.log4j2.controller.TestController - 【TestController.class】warn level log input
+2021-12-13 21:19:08.595 -- [http-nio-8084-exec-8] {ERROR} com.example.log4j2.controller.TestController - 【TestController.class】error level log input
+2021-12-13 21:19:08.599 -- [http-nio-8084-exec-3] {INFO } com.example.log4j2.controller.TestController - 【TestController.class】info level log input
+2021-12-13 21:19:08.599 -- [http-nio-8084-exec-3] {WARN } com.example.log4j2.controller.TestController - 【TestController.class】warn level log input
+2021-12-13 21:19:08.599 -- [http-nio-8084-exec-3] {ERROR} com.example.log4j2.controller.TestController - 【TestController.class】error level log input
